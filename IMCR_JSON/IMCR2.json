@@ -1,0 +1,7 @@
+[{
+  "type": "pie",
+  "values": [7, 16, 251, 1114],
+  "labels": ["2023", "2024", "2025", "2026"],
+  "textinfo": "label+percent",
+  "insidetextorientation": "radial"
+}]

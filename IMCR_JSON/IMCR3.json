@@ -1,0 +1,14 @@
+[
+    {"month": "Jan", "total": "52"},
+    {"month": "Feb", "total": "77"},
+    {"month": "Mar", "total": "272"},
+    {"month": "Apr", "total": "367"},
+    {"month": "May", "total": "375"},
+    {"month": "Jun", "total": "13"},
+    {"month": "Jul", "total": "89"},
+    {"month": "Aug", "total": "39"},
+    {"month": "Sept", "total": "24"},
+    {"month": "Oct", "total": "21"},
+    {"month": "Nov", "total": "27"},
+    {"month": "Dec", "total": "32"}
+]

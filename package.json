@@ -1,0 +1,25 @@
+{
+  "name": "international-media-cultural-references",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Ahyndn/International-Media-Cultural-References#readme",
+  "bugs": {
+    "url": "https://github.com/Ahyndn/International-Media-Cultural-References/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahyndn/International-Media-Cultural-References.git"
+  },
+  "license": "ISC, MIT, The Unlicense",
+  "author": "Ahyndn",
+  "type": "commonjs",
+  "main": "IMCR.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.29.7",
+    "@babel/core": "^7.29.7",
+    "@babel/preset-env": "^7.29.7"
+  }
+}
