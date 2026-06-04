@@ -1,0 +1,372 @@
+body {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+header, section, main, footer, form {
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    text-decoration-line: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+}
+
+/* index.html */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+.title {
+    background: rgb(66, 80, 85);
+    grid-row: 1;
+    grid-column: span 3;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(196, 197, 200);
+}
+
+.intro {
+    grid-row: 2;
+    grid-column: span 3;
+    text-align: left;
+    font-size: 2rem;
+    padding: 0.2em 0.5em;
+    margin: 0.7em 0.5em;
+}
+
+.registering {
+    grid-row: 3;
+    grid-column: span 3;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.registering2 {
+    grid-row: 4;
+    text-align: center;
+    grid-column: span 3; 
+}
+
+.Registration {
+    font-size: 2rem;
+    padding: 0.2em 0.5em;
+    margin: 0.7em 0.5em;
+    width: 30rem;
+    border-radius: 7rem;
+    background-color: rgb(7, 18, 6);
+    color:  rgb(252, 61, 134);
+}
+
+.Registration:hover {
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0.1rem 0.2rem 0.7rem 0.7rem rgba(0, 20, 5, 0.4);
+}
+
+.figure1 {
+    grid-row: 5;
+    grid-column: 2/3;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.content {
+    grid-row: 6;
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.description1 {
+    grid-row: 7;
+    grid-column: 2/3;
+    text-align: left;
+    font-size: 2rem;
+    padding: 0.2em 0.5em;
+    margin: 0.7em 0.5em;
+}
+
+.figure2 {
+    grid-row: 8;
+    grid-column: 2/3;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.year {
+    grid-row: 9;
+    grid-column: span 3;
+    text-align: center;
+}
+
+.description2 {
+    grid-row: 10;
+    grid-column: 2/3;
+    text-align: left;
+    font-size: 2rem;
+    padding: 0.2em 0.5em;
+    margin: 0.7em 0.5em;
+}
+
+.figure3 {
+    grid-row: 11;
+    grid-column: 2/3;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.month {
+    grid-row: 12;
+    grid-column: 2/3;
+    text-align: center;
+ }
+
+.description3 {
+    grid-row: 13;
+    grid-column: 2/3;
+    text-align: left;
+    font-size: 2rem;
+    padding: 0.2em 0.5em;
+    margin: 0.7em 0.5em;
+}
+
+.figure4 {
+    grid-row: 14;
+    grid-column: 2/3;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.yam {
+    grid-row: 15;
+    grid-column: 2/3;
+    text-align: center;
+ }
+
+.description4 {
+    grid-row: 16;
+    grid-column: 2/3;
+    text-align: left;
+    font-size: 2rem;
+    padding: 0.2em 0.5em;
+    margin: 0.7em 0.5em;
+}
+
+.figure5 {
+    grid-row: 17;
+    grid-column: 2/3;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.dayoe {
+    grid-row: 18;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.description5 {
+    grid-row: 19;
+    grid-column: 2/3;
+    text-align: left;
+    font-size: 2rem;
+    padding: 0.2em 0.5em;
+    margin: 0.7em 0.5em;
+}
+
+.figure6 {
+    grid-row: 20;
+    grid-column: 2/3;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.thr {
+    grid-row: 21;
+    grid-column: span 3;
+    text-align: center;
+}
+
+.description6 {
+    grid-row: 22;
+    grid-column: 2/3;
+    text-align: left;
+    font-size: 2rem;
+    padding: 0.2em 0.5em;
+    margin: 0.7em 0.5em;
+}
+        
+.critical {
+    background: rgb(66, 80, 85);
+    color:rgb(196, 197, 200);
+    grid-row: 23;
+    grid-column: span 3;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.essentials {
+    background-color: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
+    font-size: 0.7rem;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+/* Register.html */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+.register {
+    grid-column: span 3;
+    grid-row: 1;
+    font-size: 2rem;
+    padding: 0.2em 0.5em;
+    margin: 0.7em 0.5em;
+    text-align: center;
+    justify-content: center;
+}
+
+.register1 {
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.2em 0.5em;
+    margin: 0.7em 0.5em;
+    width: 90rem;
+}
+
+.register2 {
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.2em 0.5em;
+    margin: 0.7em 0.5em;
+    width: 50rem;
+    border-radius: 7rem;
+    background-color: rgb(7, 18, 6);
+    color:  rgb(252, 61, 134);
+}
+
+.register2:active, .register3:hover {
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0.1rem 0.2rem 0.7rem 0.7rem rgba(0, 20, 5, 0.4);
+}
+
+.register3 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.2em 0.5em;
+    margin: 0.7em 0.5em;
+    width: 50rem;
+    border-radius: 7rem;
+    background-color: rgb(7, 18, 6);
+    color:  rgb(252, 61, 134);
+}
+
+.cancel {
+    display: grid;
+    grid-row: 3;
+    grid-column: span 3;
+    text-align: center;
+    justify-content: center;
+    width: 100rem;
+}
+
+/* responsive */
+@media screen and (max-width: 1200px) {
+   .title, .critical {
+        font-size: 0.5rem;
+   }
+   
+   .figure1, .figure2, .figure3, .figure4, .figure5, .figure6 {
+        font-size: 1rem;
+   }
+
+   .intro {
+        font-size: 1.35rem;
+        padding: 0.2em 0.5em;
+        margin: 0.7em 0.5em;
+   }
+
+   .description1, .description2, .description3, .description4, .description5, .description6 {
+        font-size: 1.1rem;
+        padding: 0.2em 0.5em;
+        margin: 0.7em 0.5em;
+   }
+
+   .essentials {
+        text-align: left;
+        font-size: 1.2em;
+        width: auto;
+   }
+
+   .registering {
+        grid-row: 3;
+        grid-column: span 3;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+   .registering2 {
+        display: grid;
+        grid-column: span 3;
+        grid-row: 4;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .Registration {
+        text-align: center;
+        font-size: 1rem;
+        width: 21rem;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+   
+    /* Register.html */
+    .register {
+        display: grid;
+        font-size: 1rem;
+        grid-row: 1;
+        grid-column: span 3;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .register1 {
+        grid-row: 2;
+        grid-column: span 3;
+        width: 18rem;
+    }
+
+    .register2 {
+        grid-row: 3;
+        grid-column: span 3;
+        width: 18rem;
+    }
+
+    .register3 {
+        grid-row: 4;
+        grid-column: span 3;
+        width: 18rem;
+    }
+
+    .cancel{
+        display: grid;
+        grid-row: 5;
+        grid-column: span 3;
+        text-align: center;
+        padding: 2rem 2rem 0.5rem 0.5rem;
+    }
+
+}
