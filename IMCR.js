@@ -187,7 +187,7 @@ sndwich2().then((data) => {
 sndwich3().then((data) => {
 
     /* 
-        Observable Plot (v0.6.17, ISC license, observable / plot), Contributors, https://github.com/observablehq/plot [1394]
+        Observable Plot (v0.6.17, ISC license, observable / plot), Contributors, https://github.com/observablehq/plot [1]
 
             Getting started, Plot in vanilla HTML, Plot, on adapted append modification.
 
@@ -480,7 +480,7 @@ sndwich6().then((data) => {
 
         Contributing to Plotly’s Graphing Libraries Documentation (plotly/graphing-library-docs, Creative Commons Legal Code Attribution 3.0 Unported), Plotly, Contributors, https://github.com/plotly/graphing-library-docs?tab=readme-ov-file [1396]
 
-        Observable Plot (v0.6.17, ISC license, observable / plot), Contributors, https://github.com/observablehq/plot
+        Observable Plot (v0.6.17, ISC license, observable / plot), Contributors, https://github.com/observablehq/plot [1]
 
             Plots, Marks options, Plot, on adapted asynchronous javascript modification.
     */
